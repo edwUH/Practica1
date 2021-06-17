@@ -19,8 +19,8 @@ for (i in 1:Final) {
 }
 
 #integer
-auto=1000
-Casa=2000
+auto=1000L
+Casa=2000L
 auto+Casa
 
 #double
@@ -51,13 +51,25 @@ View(data.frame(VPersona))
 Vector1 = c ("Shreck","Shreck 2","Shreck tercero","Shreck:Felices para siempre")
 Vector1
 
-Vector2 = c (7.9,7.2,6.1,6,3)
+Vector2 = c (7.9,7.2,6.1,6.3)
 Vector2
 
-Vector3 = c (2001,2004,2007,2010)
-Vector3
+VectorEstreno = c (TRUE, TRUE, FALSE, FALSE)
+VectorEstreno
 
-Año = 2005
-Vector3 = Año
+
+length (Vector2)
+Min (Vector2)
+Max (Vector2)
+sum (Vector2)
+mean (Vector2)
+median (Vector2)
+sort (Vector2)
+plot (Vector2)
+unique(Vector2)
+which.max (Vector2)
+sqrt (Vector2)
+
+
 
 
