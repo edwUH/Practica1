@@ -70,6 +70,10 @@ unique(Vector2)
 which.max (Vector2)
 sqrt (Vector2)
 
+VectorSeq=1:100
+
+VectorSequencia = seq (0,100, by =10)
+
 
 
 
